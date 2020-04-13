@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
-import HookUseEffectOne from './component/HookUseEffectOne';
+import DataFetching from './component/DataFetching';
+
 function App() {
   return (
     <div className='App'>
-      <HookUseEffectOne />
+      <DataFetching />
     </div>
   );
 }
